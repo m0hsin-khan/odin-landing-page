@@ -30,7 +30,7 @@ a {
 
 .hero,
 .footer {
-    background-color: rgb(30, 30, 37);
+    background-color: #231724;
 }
 
 .header {
@@ -104,10 +104,11 @@ a {
     border-radius: 10px;
 }
 
-.quote-block {
+.quote {
     background-color: lightgrey;
     padding: 32px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -120,8 +121,8 @@ a {
 }
 
 .author {
-    width: 100px;
-    margin-left: auto;
+    /* width: 100px;
+    margin-left: auto; */
     font-weight: 700;
     padding-bottom: 24px;
 }
