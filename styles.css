@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.logo {
+    width: 68px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.hero,
+.footer {
+    background-color: rgb(30, 30, 37);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 48px;
+}
+
+.main {
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 52px;
+    gap: 68px;
+}
+
+.main-img {
+    width: 300px;
+    height: 200px;
+    border-radius: 2px;
+}
+
+.info {
+    max-width: 400px;
+}
+
+.main-heading {
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.info button {
+    background-color: darkmagenta;
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: wheat;
+    border: 2px solid darkmagenta;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.random-info {
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 48px;
+}
+
+.random-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-info {
+    margin: 0 12px;
+    max-width: 200px;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.box-info img {
+    width: 120px;
+    height: 90px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.quote-block {
+    background-color: lightgrey;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p {
+    max-width: 500px;
+    margin-bottom: 0;
+    font-size: 18px;
+    padding-top: 24px;
+}
+
+.author {
+    width: 100px;
+    margin-left: auto;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkmagenta;
+    width: 700px;
+    gap: 32px;
+    border-radius: 10px;
+}
+
+.contact-info {
+    color: whitesmoke;
+    max-width: 300px;
+}
+
+.bold-head {
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-top: 16px;
+}
+
+.contact-info p {
+    margin-top: 0;
+}
+
+.contact button {
+    background-color: darkmagenta;
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: wheat;
+    border: 2px solid white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    line-height: 50px;
+}
